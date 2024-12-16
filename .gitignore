@@ -1,18 +1,815 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "🌐 GLiTcH hUb UPD : [ 1 ]🌐", HidePremium = false, SaveConfig = true,
+ConfigFolder = "Sr2 TaEm"})
 
-# Other files and folders
-.settings/
+local Tab = Window:MakeTab({
+	Name = " ❄ الـمـطـوريـن ❄ ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+Tab:AddLabel("سيف ")
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+Tab:AddLabel("احمد")
+
+Tab:AddLabel("عبدالرحمن")
+
+local Tab = Window:MakeTab({
+	Name = "  🌐الـسـكـربـتـات 🌐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "  👇السكربتات تحت 👇 "
+})
+
+
+
+
+Tab:AddButton({
+	Name = " ✈ سكربت طيران ✈  ",
+	Callback = function()
+      		print("button pressed")
+--ARCEUS X FLY V2 SCRIPT
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = ""💫سكربت يخلي روبلوكس واقعية [ RTX ]  💫",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TPC12/RTX-Script-wow/main/RTX%20Script%20Roblox"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🚶 سكربت مشيات  [ ما يظهر للناس ]🚶 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/Uq8vajaM"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🥀سكربت Headless و Korblox 🥀  ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🔒 سكربت القفل 🔒  ",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/ShiftLock'))()
+      		print("button pressed")
+
+
+  	end    
+})
+
+Tab:AddButton({
+	Name  = " ♦ سكربت تسلق ♦ ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/walkonwalls/main/main"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "  ❎سكربت يطردك انت فقط ❎ ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/0qDyLDWt"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " ⌨ سكربت كيبورد ⌨ ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🔎 سكربت تحكم في الشات 🔎",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Chat%20Hax%20Obfuscator'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " ⚔ سكربت حرب السيوف أسرق الوقت من الاخرين ⚔",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/anyahubs/swordgame/main/anya.lua'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🧿 سكربت مراقبة الناس 🧿 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "💃 سكربت كل الرقصات 💃",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/anyahubs/FE/main/Dances.lua'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " سكربت جرافيكس local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "🌐 Glitch hub UPD : [ 1 ]🌐", HidePremium = false, SaveConfig = true, ConfigFolder = "S20 team"})
+
+local Tab = Window:MakeTab({
+	Name = "❄ الـمـطـوريـن ❄",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("سيف ")
+
+Tab:AddLabel("احمد")
+
+Tab:AddLabel("عبدالرحمن")
+
+local Tab = Window:MakeTab({
+	Name = " 🌐الـسـكـربـتـات 🌐",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = " 👇السكربتات تحت 👇"
+})
+
+
+
+
+Tab:AddButton({
+	Name = "✈ سكربت طيران✈ ",
+	Callback = function()
+      		print("button pressed")
+--ARCEUS X FLY V2 SCRIPT
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "💫سكربت يخلي روبلوكس واقعية [ RTX ]  💫",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TPC12/RTX-Script-wow/main/RTX%20Script%20Roblox"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🚶 سكربت مشيات  [ ما يظهر للناس ]🚶 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/Uq8vajaM"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🥀سكربت Headless و Korblox 🥀",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🧊 IceHub سكربت🧊",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anyahubs/FE/main/ICEHUB_ARABIC"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name  = " ♦سكربت تسلق ♦",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/walkonwalls/main/main"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " ❎سكربت يطردك انت فقط ❎",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/0qDyLDWt"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "⌨ سكربت كيبورد ⌨",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🚗 سكربت طيران السيارة 🚗",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hasan08122020108181818/HASA/759cc1030d8a4f4c23b32e8cb8550b47f567d1b9/carflyronald"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "⚔ سكربت حرب السيوف أسرق الوقت من الاخرين ⚔",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/anyahubs/swordgame/main/anya.lua'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🧿سكربت مراقبة الناس🧿 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/wyvdb7gr'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "💃 سكربت كل الرقصات💃 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/anyahubs/FE/main/Dances.lua'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🌌 سكربت جرافيكس 🌌",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/moh3mah/KATAKORI.ZR/main/Geeetho"))()
+
+    	end    
+
+})
+
+Tab:AddButton({
+	Name = " 📸سكربت كاميرا 📸",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Break%20Camera'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name  = "🔒سكربت قفل🔒",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/ShiftLock'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🤸 سكربت الشقلبة 🤸 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/yjxXnxbS'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🔭 سكربت التيليسكوب 🔭 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/8T0STS4f'))()
+
+    	end    
+})
+ 
+local Tab = Window:MakeTab({
+	Name = " 🏡 ماب البيوت 🏡 ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "👇السكربتات تحت 👇"
+})
+
+Tab:AddButton({
+	Name = "🏡 نسخ سكنات 🏡",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Rochips-Universal-21865"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🏡 [ بدون مفتاح ] سكربت قتل 🏡 ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🏡 سكربت قتل [ بمفتاح ] 🏡",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 🏡  [ بدون مفتاح ] سكربت يوسف 🏡 ",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Brookhave-lraq-20207"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🏡 سكربت ايات [بدون مفتاح] 🏡 ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel("قربيا كل السكربتات")
+
+local Tab = Window:MakeTab({
+	Name = "🎭 MM2 🎭",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+local Section = Tab:AddSection({
+	Name = "👇 كل السكربتات تحت 👇"
+})
+
+Tab:AddButton({
+	Name = "🎭 MM2 [1] 🎭",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/main/SymphonyHub.lua'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎭MM2 [2] 🎭",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "🎭 MM2 [3]🎭",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/proplayer123-z/overdrive-h/refs/heads/main/odh.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🎭 MM2 [4] 🎭",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Murder%20Mystery'))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddLabel(" قريبا كل السكربتات ")
+
+Tab:AddLabel("احنا مطفرين سكربتات ام ام تو لو انت معك سكربتات تقدر تدخل قناتي التليكرام ;)")
+
+Tab:AddLabel(" قريبا كل السكربتات ")
+
+local Tab = Window:MakeTab({
+	Name = " 🥭 بـلـوكـس فـروت  🥭",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "👇 كل السكربتات تحت 👇"
+})
+
+Tab:AddButton({
+	Name = "🥭 سكربت Thunder Z [ بمفتاح ] 🥭",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/RemakeMobileTest', true))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = "🥭 سكربت Domadic Hub [ بدون مفتاح ]🥭 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🥭سكربت KayMobile [ بدون مفتاح ] 🥭",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AXCScript/KayMobile/main/Script-Loader'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🥭سكربت MTriet Hub [ بدون مفتاح ]🥭 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🥭 سكربت HoHo Hub [ بمفتاح ]🥭 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🥭سكربت REDz Hub [ بدون مفتاح ]🥭 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+
+    	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "🔰 ادمـن 🔰",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "👇كل السكربتات تحت 👇 "
+})
+
+Tab:AddButton({
+	Name = " 🌐 سكربت ادمن [ Infinite Yield ] 🌐 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🔗سكربت ادمن [Joy admin]🔗",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/leg1337/legadmv2/main/legadminv2.lua'))()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🟥سكربت ادمن خاص [admin]🟥",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "قريباً",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " ⚠الاعـب⚠ ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = " 👇هنا سكربتات تكون خاصة فقط للاعب 👇"
+})
+
+Tab:AddButton({
+	Name = " 😂سكربت عندما تملس شخص تقتله😂 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fedoratums/Base-Script/Base-Script/fedoratum punch fling",true))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🚶‍♀سكربت المشي على الهواء 🚶‍♀",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "👻 سكربت الاختفاء 👻",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🛩تطير العدو🛩",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🎗سكربت عدم الموت🎗",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "قريباً",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " 🔥سـكـربـتـات اخـري🔥 ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "👇كل السكربتات تحت👇"
+})
+
+Tab:AddButton({
+	Name = " 👩‍💻سكربت ايم بوت 1 👩‍💻",
+	Callback = function()
+      		print("button pressed")
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\65\99\117\114\97\88\48\52\57\47\111\98\102\117\115\99\97\116\101\100\83\99\114\105\112\116\115\47\109\97\105\110\47\75\105\108\108\71\117\105\34\41\41\40\41\10")()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "👩‍💻 سكربت ايم بوت 2 👩‍💻",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hasan08122020108181818/HASA/main/scripthusenidanacronaldo.lua"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = " 🌀سكربت لاق 1 🌀",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BidoSkinsYT/BidoSkinsYT/main/Fe%20lag%20chat%20Gui"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🌀 سكربت لاق 2 🌀",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/JAAfsp1N"))() 
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🌚رحمه 1🌚",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "🌊سبام 1🌊",
+	Callback = function()
+	loadstring(game:GetObjects("rbxassetid://1262435912")[1].Source)()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "قريباً",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "قريباً",
+	Callback = function()
+      		print("button pressed")
+
+
+    	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " 👽سـكـربـتـات لـمـابـات👽 ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = " Pet Simulator X🤓 "
+})
+
+Tab:AddButton({
+	Name = " 🧩Pet Simulator X Rafa [ بدون مفتاح ]🧩 ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " ⚡ProjectWD [ مفتاح ] ⚡",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+
+  	end    
+})
+
+Tab:AddButton({
+	Name = " 💧BT Project [ مفتاح ] 💧",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGetAsync("https://blacktrap.org/blacktrap/users/checkpoint/Auth.txt"))()
+
+  	end    
+})
+
+local Section = Tab:AddSection({
+	Name = " Pet Simulator X 99!❄ "
+})
+
+Tab:AddButton({
+	Name = " ☁REDz Hub [ بدون مفتاح ] ☁",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+
+    	end    
+})
+
+Tab:AddButton({
+	Name = "⭐ Idiot Hub [ بدون مفتاح ] ⭐",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Somerandomidiot/Lua/main/PS99_Protected.txt"))()
+
+    	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "☄ Arsenal ☄"
+})
+
+Tab:AddButton({
+	Name = "🛑 OwlHub [ بمفتاح ]🛑  ",
+	Callback = function()
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+
+    	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = " 🙂الـتـحـديـثـات 🙂",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = " 💥الـتـحـديـث رقـم UPD 2 💥"
+})
+
+Tab:AddParagraph("في التيلكرام حقي ")
+
+
+local Tab = Window:MakeTab({
+	Name = " ⚙الإعـدادات ⚙",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "FPS Unlocker 🔓 تـزويـد الـفـريـمـات",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+--[[
+Name = <string> - The name of the toggle.
+Default = <bool> - The default value of the toggle.
+Callback = <function> - The function of the toggle.
+]]
+
+Tab:AddColorpicker({
+	Name = "UI Color ⬛ الـوان الـواجـهـة",
+	Default = Color3.fromRGB(255, 0, 0),
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+--[[
+Name = <string> - The name of the colorpicker.
+Default = <color3> - The default value of the colorpicker.
+Callback = <function> - The function of the colorpicker.
+]]
+
+Tab:AddButton({
+	Name = "Destory UI ⛏  حـذف الـواجـهـة",
+	Callback = function()
+      		print("button pressed")
+OrionLib:Destroy()
+
+    	end    
+})
+
+--[[
+Name = <string> - The name of the section.
+]]OrionLib:MakeNotification({
+	Name = " 🤓تم تعفيل السكربت🤓",
+	Content = "💗شكرا لاختياركم سكربتنا  نتمنى ان يعجبكم 💗",
+	Image = "rbxassetid://4483345998",
+	Time = 10
+})
+
+--[[
